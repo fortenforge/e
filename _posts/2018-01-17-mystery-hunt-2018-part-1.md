@@ -42,6 +42,8 @@ Everyone wanted to take the deck with them when they left so we eventually decid
 
 **[Model Kit](https://head-hunters.org/puzzle/model_kit)**: This was another physical puzzle in this hunt. Solvers were given a molecular model kit made out of colored marshmallows. The bonds between atoms took the form of toothpicks with chemical reactions conditions listed on each. We were also given a list of fifteen clues that solved to different molecules. The correct solution was to assign each marshmallow to one of the fifteen molecules, and then construct a caffeine molecule out of the marshmallows and toothpicks such that a toothpick between two marshmallows indicated that the reaction on the toothpick took you from the one of the corresponding molecules to the other.
 
+![caffeine]({{site.baseurl}}/assets/puzzles2018/modelkit.jpg){: .center-image }
+
 It turns out that solving this logic puzzle was fiendishly difficult and required some fairly advanced organic chemistry skills. Our team somehow had three different people with the requisite knowledge, and they spent several hours filling up whiteboards and talking about "Jones Reagents" and "permanganates" until they solved the puzzle. I myself couldn't follow any of what they were doing (the "obvious connections" mentioned in the puzzle's [official solution](https://head-hunters.org/solution/model_kit) are complete nonsense to my eyes), but just watching the three of them excitedly work their way to a solution reminded me of everything I love so much about Hunt.
 
 At wrap-up, the organizers mentioned that they wanted to laser-cut the model kit as well, but I'm really glad they didn't: the colored marshmallows had an aesthetic appeal in their own right which added a lot to the puzzle.
