@@ -98,7 +98,7 @@ The second big problem was with the way we were supposed to obtain the third dir
 
 This is kind of brilliant, had it actually worked. In practice the whole thing was made confusing by the fact that each radio had two channels (A and B) on it that you could switch between, but on some of the radios, the channel toggler was taped over, and on all of the radios there was paper with a warning to not remove the tape. We figured that some team before us had removed the tape, and called HQ about the issue, who told us that the tape configuration was correct. We eventually collected as much data as we could by trying out all the channel possibilities, and headed back.
 
-![the "radio"]({{site.baseurl}}/assets/puzzles2018/radio.jpg){: .center-image }
+![the "radio"]({{site.baseurl}}/assets/puzzles2018/radio.JPG){: .center-image }
 
 By this point, the organizers were allowing teams to confirm this data with them because some of the radios were malfunctioning. Indeed when we confirmed our data, we were basically just given the correct directed graph which differed by a couple edges. It was a little disappointing to do the hard coordination work and have the organizers just tell us the right answer. I'm also still unsure what the A/B channels were supposed to add to the puzzle. Apparently the radios were all "simulated" over WiFi anyways, so I can't see a reason for needing to present multiple channels. It's really too bad, because I always felt that Mystery Hunt should have more of these escape-room-like interactions between team members.
 
