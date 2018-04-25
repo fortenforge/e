@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blaze CTF 2017: shellcodeme (420 pts)"
+title:  "Blaze CTF 2018: shellcodeme (420 pts)"
 date:   2018-04-23 3:12:44 -0500
 categories: ctfs pwn
 ---
