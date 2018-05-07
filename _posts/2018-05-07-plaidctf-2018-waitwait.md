@@ -5,7 +5,7 @@ date:   2018-05-07 3:12:44 -0500
 categories: ctfs pwn
 ---
 
-This problem was categorized under "Misc" and was worth only 125 points. Nevertheless, it was one of the harder challenges and received only 14 solves. [ghostly_gray](https://raywang.tech) and I worked on it for several hours over the course of the CTF, but we only solved it after the CTF had ended.
+This problem was categorized under "Misc" and was worth only 125 points. Nevertheless, it was one of the harder challenges and received only 14 solves. [ghostly_gray](https://raywang.tech), [fasano](http://nation.state.actor/), and I worked on it for several hours over the course of the CTF, but we only solved it after the CTF had ended.
 
 The challenge was themed around the NPR Quiz Show *[Wait Wait... Don't Tell Me!](https://en.wikipedia.org/wiki/Wait_Wait..._Don%27t_Tell_Me!)* and consisted solely of an address and port to connect to.
 
@@ -258,4 +258,4 @@ $ nc -l 17476
 PCTF{Pwner_had_enough_to_win_with_63_correct_answers_in_only_60_seconds}
 ```
 
-Finally you might be interested in [this]({{site.baseurl}}/assets/plaidctf2018/waitwait/exploit.py) pwntools helper script we used to debug our shellcode locally and to output just the filled-in bytes from a completed shellcode.
+Finally you might be interested in [this]({{site.baseurl}}/assets/plaidctf2018/waitwait/waitwait.py) pwntools helper script we used to debug our shellcode locally and to output just the filled-in bytes from a completed shellcode.
