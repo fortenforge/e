@@ -9,6 +9,8 @@ This problem was categorized under "Misc" and was worth only 125 points. Neverth
 
 The challenge was themed around the NPR Quiz Show *[Wait Wait... Don't Tell Me!](https://en.wikipedia.org/wiki/Wait_Wait..._Don%27t_Tell_Me!)* and consisted solely of an address and port to connect to.
 
+<!--more-->
+
 When you connect, this is what you see:
 
 ```
@@ -256,4 +258,4 @@ $ nc -l 17476
 PCTF{Pwner_had_enough_to_win_with_63_correct_answers_in_only_60_seconds}
 ```
 
-Finally you might be interested in [this]({{site.baseurl}}/assets/plaidctf2018/waitwait/exploit.py) pwntools helper script we used to debug our shellcode locally and to output just the filled-in bytes from a completed shellcode. 
+Finally you might be interested in [this]({{site.baseurl}}/assets/plaidctf2018/waitwait/exploit.py) pwntools helper script we used to debug our shellcode locally and to output just the filled-in bytes from a completed shellcode.
