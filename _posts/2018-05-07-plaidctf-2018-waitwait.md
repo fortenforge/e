@@ -90,7 +90,7 @@ The second roadblock is that if we go the open / read / write route instead of u
 
 We resolved this issue by considering the fourth syscall we were allowed to make in closer detail. Notice that the last instruction before the syscall allows us to move something into `r10d`, the fourth argument. However, none of the syscalls that we'd been considering using had more than three arguments. We then searched the [syscall table](http://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/) for four-argument functions that could be of use, and we found [sendfile](http://man7.org/linux/man-pages/man2/sendfile.2.html).
 
-sendfile allows us to specify an *in* and an *out* file descriptor, and send `count` bytes from the *in* file to the *out* file. If we first open `flag.txt`, we can send it's contents to our socket using just four total syscalls: socket, connect, open, and sendfile.
+sendfile allows us to specify an *in* and an *out* file descriptor, and send `count` bytes from the *in* file to the *out* file. If we first open `flag.txt`, we can send its contents to our socket using just four total syscalls: socket, connect, open, and sendfile.
 
 This was where we got stuck during the CTF. We couldn't figure out how to get around our first problem: how do we send a pointer to a string as an argument, when we can only move immediates into registers?
 
@@ -226,7 +226,7 @@ b8 29 00 00 00          mov    eax,  0x29  // 0x29 = 41
 bf d9 ff ff ff          mov    edi,  0xffffffd9
 be 03 00 00 00          mov    esi,  0x3
 ba 00 00 00 00          mov    edx,  0x0
-01 c7                   add    edi,  eax   // 00xffffffd9 + 0x29 = 2
+01 c7                   add    edi,  eax   // 0xffffffd9 + 0x29 = 2
 29 fe                   sub    esi,  edi   // 0x3 - 1 = 1
 21 f2                   and    edx,  esi   // 0 & 1 = 0
 0f 05                   syscall
