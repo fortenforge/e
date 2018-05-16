@@ -131,7 +131,7 @@ I implemented the [exploit](https://github.com/fortenforge/defconquals2018-offic
 
 The combination of the buffer overflow and the cryptographic attack makes this challenge quite cute. However, I'd argue the weird call to the reversal function in order to ensure that the null terminator ends up as the least significant byte of the nonce rather than the most significant byte makes it a little less elegant. Why would any real program do that?
 
-What would happen if that reversal function was never called? Well, instead of the least significant byte being 0, the most significant byte would be 0. This is still a bias in the nonce! Since \\(q\\) is less than \\(2^{160}\\), it might not be a bias of 8 bits, but it's quite close. For our particular q the bias ends up being ~7.75 bits, which is plenty.
+What would happen if that reversal function was never called? Well, instead of the least significant byte being 0, the most significant byte would be 0. This is still a bias in the nonce! Since \\(q\\) is less than \\(2^{160}\\), it might not be a bias of 8 bits, but it's quite close. For our particular \\(q\\) the bias ends up being ~7.75 bits, which is plenty.
 
 How would we modify our attack in this variant? Well, it's really as simple as changing all the instances of \\(2^8\\) to 1, since \\(k = b\\) is already a small number in comparison to \\(q\\).
 
