@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DEF CON Quals 2018: official (194 pts)"
-date:   2018-05-15 3:12:44 -0500
+date:   2018-05-14 3:12:44 -0500
 categories: ctfs pwn crypto
 use_math: true
 ---
