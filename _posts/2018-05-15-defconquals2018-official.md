@@ -123,7 +123,7 @@ where \\(s_T = s_U = 1\\) act as *sentinel values*. When we run LLL on this basi
 
 This trick was originally introduced in the problem description of the corresponding [cryptopals challenge](https://toadstyle.org/cryptopals/76f2e314809b2a34ce9ff0d2a08f7a7f.txt) (the challenge is part of set 8, which you can't find on the main [cryptopals](http://cryptopals.com/sets/8) website but was released publicly anyway as a very indirect [consequence](https://twitter.com/tqbf/status/979840220660162561) of Donald Trump being elected president).
 
-cryptopals recommends setting \\(sT\\) as \\(2^{-8}\\) and \\(sU\\) as \\(q \cdot 2^{-8}\\) in order to make each entry of the resulting short vector around the same size. In practice it doesn't matter too much, and you can get away with setting them both to 1. Just make sure to not set \\(sT\\) to something greater than \\(1\\), because this will prohibitively increase the size of our target vector since it includes an \\(xs_T\\) entry.
+cryptopals recommends setting \\(s_T\\) as \\(2^{-8}\\) and \\(s_U\\) as \\(q \cdot 2^{-8}\\) in order to make each entry of the resulting short vector around the same size. In practice it doesn't matter too much, and you can get away with setting them both to 1. Just make sure to not set \\(s_T\\) to something greater than \\(1\\), because this will prohibitively increase the size of our target vector since it includes an \\(xs_T\\) entry.
 
 I implemented the [exploit](https://github.com/fortenforge/defconquals2018-official/blob/master/solve.sage) in [sage](http://www.sagemath.org/) since that's the easiest way to access an `LLL()` function from python code. The stackexchange post suggests that an 8-bit bias should require \\(n = 20\\) signature pairs, but I needed at least 66.
 
