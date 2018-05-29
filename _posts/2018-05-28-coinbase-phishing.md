@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Anatomy of a Man-in-the-Middle Phishing Campaign on Coinbase"
-date:   2018-05-28 3:12:44 -0500
+date:   2018-05-29 3:12:44 -0500
 ---
 
 In the summer after my freshman year of college, I had an internship with a startup that tries to defeat phishing attacks against enterprise corporations. As such, I spent a lot of time staring at phishing sites. Once, I showed a phishing campaign against MIT's OWA email portal to my boss, and he blew my mind when he dug through the site and managed to find a publicly-accessible text file where the attackers were logging all the password attempts.
@@ -68,7 +68,7 @@ The `/proxy` directory contains two PHP scripts and three text files which list 
 
 ![]({{ site.baseurl }}/assets/phishing_coinbase/proxy.png)
 
-Unfortunately, the server tries to run any PHP scripts that are requested, so I couldn't get the source code of these. I suspect that the server was proxying it's requests to Coinbase through these IPs in order to evade blacklisting.
+Unfortunately, the server tries to run any PHP scripts that are requested, so I couldn't get the source code of these. I suspect that the server was proxying its requests to Coinbase through these IPs in order to evade blacklisting.
 
 The real jackpot was in `/data`. It contained five different text files, all of which were logs of various parts of the phishing process.
 
@@ -80,7 +80,7 @@ Three of them (`remove2FA.txt`, `errors.txt`, and `codes.txt`) included a couple
 
 Of course, some of these are people trying to login multiple times. I count 132 unique email addresses listed, including obviously fake ones like `hellophisher@hotmail.com`.
 
-OK, so over 100 people gave up their email and password to the attackers, but can we tell how many actually had their accounts drained? It turns out, we can. THis brings us to the last text file: `success.txt`, in which the phishers logged every time they successfully transferred cryptocurrency out of an account. Amusingly, this happened a grand total of three times:
+OK, so over 100 people gave up their email and password to the attackers, but can we tell how many actually had their accounts drained? It turns out, we can. This brings us to the last text file: `success.txt`, in which the phishers logged every time they successfully transferred cryptocurrency out of an account. Amusingly, this happened a grand total of three times:
 
 [![]({{ site.baseurl }}/assets/phishing_coinbase/success.png)]({{ site.baseurl }}/assets/phishing_coinbase/success.png)
 
@@ -88,7 +88,7 @@ As you can see, the attackers managed to exfiltrate 0.0124 ETH and 0.0031 BTC, w
 
 ## blockchain, blockchain, blockchain
 
-One neat aspect of all this specific to cryptocurrencies is that we can actually see these transactions happening on the blockchain since the log lists the attacker's Bitcoin and Ethereum addresses. You can checkout the two Ethereum transactions [here](https://etherscan.io/tx/0xf61104ec78ac83ec72a24c4bc2f902366ece46a86f6b7a95c2be81d8308a0582) and [here](https://etherscan.io/tx/0x8d99d4eba3dcc5526f2e8641cc86abf312d0557d3ff24cdc7a3436cb889c7763), and you can see the Bitcoin transaction [here](https://blockchain.info/tx/dccd90eadbac2d623d95319d1d56874de6d81abbca0d098b23aff7c69d8a1d9c). I've also shown the Bitcoin transaction below:
+One neat aspect of all this that is specific to cryptocurrencies is that we can actually see these transactions happening on the blockchain since the log lists the attacker's Bitcoin and Ethereum addresses. You can checkout the two Ethereum transactions [here](https://etherscan.io/tx/0xf61104ec78ac83ec72a24c4bc2f902366ece46a86f6b7a95c2be81d8308a0582) and [here](https://etherscan.io/tx/0x8d99d4eba3dcc5526f2e8641cc86abf312d0557d3ff24cdc7a3436cb889c7763), and you can see the Bitcoin transaction [here](https://blockchain.info/tx/dccd90eadbac2d623d95319d1d56874de6d81abbca0d098b23aff7c69d8a1d9c). I've also shown the Bitcoin transaction below:
 
 [![]({{ site.baseurl }}/assets/phishing_coinbase/bitcoin.png)]({{ site.baseurl }}/assets/phishing_coinbase/bitcoin.png)
 
@@ -102,18 +102,18 @@ All told, the attackers have received around $415 worth of Ethereum since they s
 
 ## Lessons Learned
 
-So, what accounts for the dismal performance of the scam? The attackers had a number of things working against them. First was the choice to serve the site over HTTP instead of HTTPS. On unencrypted sites that include a form, Chrome includes a "Not Secure" message next to the URL. In fact, Chrome will actually get even more aggressive with non-HTTPS pages [starting in October 2018](https://blog.chromium.org/2018/05/evolving-chromes-security-indicators.html)
+So, what accounts for the dismal performance of the scam? The attackers had a number of things working against them. First was the choice to serve the site over HTTP instead of HTTPS. On unencrypted sites that include a form, Chrome includes a "Not Secure" message next to the URL. In fact, Chrome will actually get even more aggressive with non-HTTPS pages [starting in October 2018](https://blog.chromium.org/2018/05/evolving-chromes-security-indicators.html):
 
 ![](https://3.bp.blogspot.com/-MkJEkHnXcXc/Wv181DQednI/AAAAAAAAA6E/95MwjxqK7awaCgr_Z6xRNWVi0Ztf0-ncACLcBGAs/s1600/Treatment%2Bof%2BHTTP%2BPages%2Bwith%2BUser%2BInput.gif){: .center-image }
 
 One has to wonder why the phishers didn't bother getting a free certificate from [Let's Encrypt](https://letsencrypt.org/) to make the page more believable. Since the average person doesn't know enough about domain names to understand that coinbase.com is owned by Coinbase, while coinbase.tx-app.com is not, we've entered a dangerous period where anyone can create a reasonably convincing phishing site just by obtaining a certificate.
 
-Thankfully, Chrome is slowly phasing out the green locks entirely, making HTTPS the accepted default instead of some special status.
+Thankfully, Chrome is slowly phasing out the green locks entirely, making HTTPS the accepted default instead of some special status:
 
 ![](https://4.bp.blogspot.com/-NOXiIl70UqI/Wv18vLtJqjI/AAAAAAAAA6A/8vjHdMA4ico5ZT9F_i7O5_Rg2VE534e-ACLcBGAs/s1600/pasted%2Bimage%2B0%2B%25283%2529.png){: .center-image }
 
 The other major factor was Coinbase's two-factor authentication. There's a widespread myth that two-factor authentication can prevent phishing. As we
-ve seen this is untrue---to really stop phishing attacks you need to use a hardware token like a [Yubikey](https://www.yubico.com/) paired with some cryptographic protocol like [U2F](https://www.yubico.com/solutions/fido-u2f/) or [WebAuthn](https://blogs.dropbox.com/tech/2018/05/introducing-webauthn-support-for-secure-dropbox-sign-in/) which binds to the TLS session. Coinbase currently doesn't support any such method. Still, clearly two-factor authentication mitigated the damage, if only by making it so hard for users to login that they stopped trying midway through getting phished.
+ve seen, this is untrue---to really stop phishing attacks you need to use a hardware token like a [Yubikey](https://www.yubico.com/) paired with some cryptographic protocol like [U2F](https://www.yubico.com/solutions/fido-u2f/) or [WebAuthn](https://blogs.dropbox.com/tech/2018/05/introducing-webauthn-support-for-secure-dropbox-sign-in/) which binds to the TLS session. Coinbase currently doesn't support any such method. Still, two-factor authentication clearly mitigated the damage, if only by making it so hard for users to login that they stopped trying midway through getting phished.
 
 Finally, the largest determinant was Google's [Safe Browsing](https://safebrowsing.google.com/) initiative which [flagged the site](https://transparencyreport.google.com/safe-browsing/search?url=coinbase.tx-app.com) only a couple hours after the text message was sent to me.
 
@@ -121,7 +121,7 @@ Finally, the largest determinant was Google's [Safe Browsing](https://safebrowsi
 
 Once a site has been flagged, Google displays a giant red page to users, warning them that they're about to phished. Once this happens, the attackers have pretty much no hope of extracting that much more currency from additional users.
 
-## whois
+## `whois` data
 
 ```
 Domain Name: TX-APP.COM
