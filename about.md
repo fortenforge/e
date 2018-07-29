@@ -4,9 +4,14 @@ title: About
 permalink: /about
 ---
 
-This site is my personal blog, where I hope to talk about completed puzzlehunts, CTFs, and personal projects or explorations.
+*Last updated July, 2018*
 
-It was built with [Github Pages](https://pages.github.com/), [Jekyll](https://jekyllrb.com/), and [Hyde](http://hyde.getpoole.com/).
+I currently work at Google as a Software Engineer on the Gmail Security Team.
+The views expressed here are personal opinions, and do not necessarily reflect
+the opinions of my employer.
+
+I have two main hobbies: [capture the flag competitions ](https://ctftime.org/ctf-wtf/) and [puzzlehunts](https://en.wikipedia.org/wiki/Puzzlehunt). Together, these cover something like 90% of the posts I write on this blog.
+
 
 <hr>
 <img src="{{ site.baseurl }}/assets/fnf/fnf.png" style="max-width:25%; margin: auto">
