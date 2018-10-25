@@ -51,7 +51,7 @@ Nunes's opponent is Democratic candidate [Andrew Janz](https://www.andrewjanzfor
 
 ## 6. Steve King ([IA-04](https://projects.fivethirtyeight.com/2018-midterm-election-forecast/house/iowa/4/))
 
-Steve King is a white supremacist. Steve King's Wikpedia page contains one full top-level section named ["Racist comments, controversies and far-right politics"](Racist comments, controversies and far-right politics). Steve King compared the torture and prisoner abuse at Abu Ghraib prison to "hazing". In reference to earlier controversial comments he made, King said "with the inter-marriage, I'd like to see an America that is just so homogenous that we look a lot the same".
+Steve King is a white supremacist. Steve King's Wikpedia page contains one full top-level section named ["Racist comments, controversies and far-right politics"](https://en.wikipedia.org/wiki/Steve_King#Racist_comments,_controversies_and_far-right_politics). Steve King compared the torture and prisoner abuse at Abu Ghraib prison to "hazing". In reference to earlier controversial comments he made, King said "with the inter-marriage, I'd like to see an America that is just so homogenous that we look a lot the same".
 
 Steve King keeps a small Confederate flag on his desk. This is despite the fact that Iowa was a Union state. ["Steve King endorses a bona fide white supremacist for Toronto mayor"](https://www.vox.com/policy-and-politics/2018/10/18/17990718/steve-king-faith-goldy-white-supremacist-canada-iowa-republicans) is a headline that is true. ["What, Congressman Steve King Asks, Have Nonwhites Done for Civilization?"](https://www.nytimes.com/2016/07/19/us/politics/steve-king-nonwhite-subgroups.html) is another headline that is also true.
 
