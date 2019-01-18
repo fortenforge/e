@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "New Year, Nutrition"
-date:   2019-01-13 17:12:47 -0500
-categories: politics
+date:   2019-01-17 17:12:47 -0500
 ---
 
 I find nutrition fascinating. It's one of the most important research fields given how many people care about its effect on longevity, weight loss, and overall health, but it's also one of the most difficult areas of science to make reliable progress. Part of the problem is that the human body and its metabolism is ridiculously complicated, so it can't be easily broken down to first principles like physics or chemistry.
