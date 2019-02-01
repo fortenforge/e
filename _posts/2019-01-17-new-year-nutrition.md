@@ -69,4 +69,4 @@ The media handles nutrition science badly. People care about weight loss so they
 
 In general, you should discount any article that is based on a single study. You really should only care about meta-analyses of randomized controlled trials.
 
-*Sincere thanks to Kimberli Zhong for proofreading and correcting earlier drafts of this post.*
+*Sincere thanks to Kimberli Zhong and Varun Mohan for proofreading and correcting earlier drafts of this post.*
