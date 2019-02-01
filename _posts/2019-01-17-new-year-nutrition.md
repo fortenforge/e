@@ -66,4 +66,7 @@ The media handles nutrition science badly. People care about weight loss so they
  * Anything by [Aaron Carroll](https://www.nytimes.com/by/aaron-e-carroll) at the New York Times is similarly great
  * Aaron also has a [Youtube series](https://www.youtube.com/user/thehealthcaretriage) and a [podcast](https://itunes.apple.com/us/podcast/healthcare-triage-podcast/id999134849?mt=2) both of which are quite good
 
- In general, you should discount any article that is based on a single study. You really should only care about meta-analyses of randomized controlled trials.
+
+In general, you should discount any article that is based on a single study. You really should only care about meta-analyses of randomized controlled trials.
+
+*Sincere thanks to Kimberli Zhong for proofreading and correcting earlier drafts of this post.*
