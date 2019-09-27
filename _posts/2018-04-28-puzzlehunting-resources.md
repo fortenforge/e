@@ -29,3 +29,6 @@ In the past four months I've had the experience of organizing a fledgling team f
 * [Consolation Prize](https://2018.galacticpuzzlehunt.com/puzzle/consolation-prize) [2018 Galactic Puzzle Hunt]
 * [Chessmen Meta](https://2018.galacticpuzzlehunt.com/puzzle/chessmen) [2018 Galactic Puzzle Hunt]
 * [Animal Crackers Meta](https://2018.galacticpuzzlehunt.com/puzzle/animal-crackers) [2018 Galactic Puzzle Hunt]
+* [Ten Years Later](https://2019.galacticpuzzlehunt.com/puzzle/ten-years-later) [2019 Galactic Puzzle Hunt]
+* [The Animal Trainers Meta](https://2019.galacticpuzzlehunt.com/puzzle/the-animal-trainers) [2019 Galactic Puzzle Hunt]
+* [The Galactic Conference Metameta](https://2019.galacticpuzzlehunt.com/puzzle/the-galactic-conference) [2019 Galactic Puzzle Hunt]
