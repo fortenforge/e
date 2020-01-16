@@ -15,7 +15,7 @@ In the past four months I've had the experience of organizing a fledgling team f
 * A [guide](https://docs.google.com/spreadsheets/d/1jMFf_fSEH9kL9_PAYyMxjL8pRZdgqCm9n2xrnF69kQM/edit?usp=sharing) to puzzlehunting using Google Sheets
 * A [glossary](https://docs.google.com/document/d/1_d_xx-RQ2mCfXGVtjCx_56pQhwdJHvyBser7pHLtmM0/edit#) of puzzlehunting terms
 * A [guide](https://github.com/fortenforge/suggestions-for-running-a-puzzlehunt) to running a puzzlehunt (feel free to submit a pull request!)
-* A [map](https://www.google.com/maps/d/u/0/edit?mid=1cvq4WxVuuSbIZUmzbQATxQMElE4) of coin locations for the MIT Mystery Hunt
+* A [map](https://fortenf.org/mh-coin-map) of coin locations for the MIT Mystery Hunt
 * Some [tools](https://fortenf.org/codes) for quickly decoding Morse code, Braille, and flag semaphore
 * A [tool](https://fortenf.org/caesar) for quickly looking at Caesar shifts
 
