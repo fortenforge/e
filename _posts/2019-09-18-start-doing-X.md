@@ -10,7 +10,7 @@ Here are the answers so that you don't have to waste your time trying it out:
 
 ## X = stop showering
 
-You won't do anything catastrophic or even moderately bad to your health. You'll start smelling really bad, although you'll eventually stop noticing the smell (others around you won't). You'll gain absolutely nothing (except maybe saving a few minutes every day).
+You won't do anything catastrophic to your health. You'll start smelling really bad, although you'll eventually stop noticing the smell (others around you won't). You'll gain absolutely nothing (except maybe saving a few minutes every day). Don't do this please.
 
 ## X = start exercising
 
