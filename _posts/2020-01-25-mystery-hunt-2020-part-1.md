@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mystery Hunt 2019 [Part 1]"
+title:  "Mystery Hunt 2020 [Part 1]"
 date:   2020-01-25 11:12:47 -0500
 categories: mystery_hunt puzzlehunts
 ---
