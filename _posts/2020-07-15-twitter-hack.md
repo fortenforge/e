@@ -64,6 +64,8 @@ More plausibly, perhaps Twitter wouldn't actually have paid out $100k?
 
 This tweet suggests that OAuth takeovers were valued at $7.7k (and after taxes you're left with chump change). If so, this a big issue with Twitter's bug bounty program! You need to ensure that the incentives make reporting more worth it than exploiting.
 
+*Update: more reporting about how the account takeovers were executed [has emerged](https://www.vice.com/en_us/article/jgxd3d/twitter-insider-access-panel-account-hacks-biden-uber-bezos), and it suggests that there wasn't any technical vulnerability that was ever exploited. Social engineering and insider risk (which can obviously be quite damaging) tend not to be eligible for bounties on most programs.*
+
 ## Phishing
 
 OK how about this: log into Coinbase's twitter account, craft a tweet announcing some snazzy new feature and include a bit.ly link that actually goes to a phishing website. Execute a [relay phishing attack](https://fortenf.org/e/2018/05/29/coinbase-phishing.html) that gives you access to their Coinbase account while bypassing 2FA, and then send all their Bitcoin and Ethereum and Dogecoin to your own account.
