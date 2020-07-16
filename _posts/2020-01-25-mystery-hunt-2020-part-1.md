@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Mystery Hunt 2020 [Part 1]"
+title:  "Mystery Hunt 2020 [Part 1/3]"
 date:   2020-01-25 11:12:47 -0500
 categories: mystery_hunt puzzlehunts
 ---
 
-*This is the first of some number of posts about the 2020 MIT Mystery Hunt. You can see the hunt website with all the puzzles and solutions [here](http://pennypark.fun).*
+*This is the first of three posts about the 2020 MIT Mystery Hunt. You can see the hunt website with all the puzzles and solutions [here](http://pennypark.fun).*
 
 I spent the past weekend in Cambridge, MA participating in the [MIT Mystery Hunt](http://web.mit.edu/puzzle/www/) for the sixth time. I was the captain of **teammate**, a rather new team that split from ✈️✈️✈️Galactic Trendsetters✈️✈️✈️ (the eventual winners of this year's hunt) in 2018, and whose increasingly strong performance has taken many by surprise.
 

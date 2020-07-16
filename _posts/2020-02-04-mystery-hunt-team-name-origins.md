@@ -5,7 +5,7 @@ date:   2020-02-04 11:12:47 -0500
 categories: mystery_hunt puzzlehunts
 ---
 
-*This is the second of some number of posts about the 2020 MIT Mystery Hunt. You can see the hunt website with all the puzzles and solutions [here](http://pennypark.fun).*
+*This is the second of three posts about the 2020 MIT Mystery Hunt. You can see the hunt website with all the puzzles and solutions [here](http://pennypark.fun).*
 
 I'm still working on a blogpost about some of my favorite puzzles from the 2020 hunt, but in the meantime I thought I'd throw together a quick post about the origins of the team names of various Mystery Hunt teams. Most of this data is collected from [these](https://www.reddit.com/r/mysteryhunt/comments/7qqgri/tell_me_about_your_mit_mystery_hunt_team_2018/) [two](https://www.reddit.com/r/mysteryhunt/comments/aidab9/2019_mit_mystery_hunt_recap/) reddit threads. If I got anything wrong do let me know and I'll  be sure to correct it. Teams after **Left Out** are sorted by their ranking in this year's hunt.
 
