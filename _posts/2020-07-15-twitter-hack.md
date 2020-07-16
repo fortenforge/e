@@ -78,4 +78,4 @@ This is not to say that they did everything right: I still can't explain why the
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">High impact bugs can sometimes be found and exploited by anyone, even dogs who have no idea what to do with the car they caught. There really doesn&#39;t have to be more to it than that.</p>&mdash; Brad Hill (@hillbrad) <a href="https://twitter.com/hillbrad/status/1283597241685438464?ref_src=twsrc%5Etfw">July 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-*Thanks to Akshay, Kim, and Varun for for reading drafts of this.*
+*Thanks to Akshay, Kim, and Varun for reading drafts of this.*
