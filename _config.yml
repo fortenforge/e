@@ -17,9 +17,10 @@ title: Fort & Forge
 email: fortenforge@mit.edu
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/e" # the subpath of your site, e.g. /blog
-url: "http://fortenf.org/e/"
+url: "https://fortenf.org/e/"
 github_username:  fortenforge
 twitter_username: fortenforge
+title_image: "https://fortenf.org/e/assets/fnf/fnf.png"
 
 # syntax highlighting
 highlighter: rouge
