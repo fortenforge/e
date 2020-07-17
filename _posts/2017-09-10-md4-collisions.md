@@ -4,6 +4,7 @@ title:  "Finding Collisions in MD4"
 date:   2017-09-10 3:12:44 -0500
 categories: crypto
 use_math: true
+image: assets/md4/first_collision.png
 ---
 
 On and off for the past couple of years, my friend [Ray](https://raywang.tech/) and I have been working through the [Cryptopals Crypto Challenges](https://cryptopals.com), a series of exercises split across eight sets that explore modern cryptographic protocols and their weaknesses. The challenges start out pretty easy, but as you move forward, the attacks you're asked to implement become increasingly difficult.
