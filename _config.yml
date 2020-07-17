@@ -20,7 +20,7 @@ baseurl: "/e" # the subpath of your site, e.g. /blog
 url: "https://fortenf.org/e/"
 github_username:  fortenforge
 twitter_username: fortenforge
-title_image: "https://fortenf.org/e/assets/fnf/fnf.png"
+title_image: "https://fortenf.org/e/assets/fnf/2.png"
 
 # syntax highlighting
 highlighter: rouge

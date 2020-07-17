@@ -2,6 +2,7 @@
 layout: post
 title:  "No, you couldn't have made more money than the Twitter hacker"
 summary: "Analysis of various approaches to monetizing the Twitter hack"
+image: assets/twitter_hack/stonks.png
 date:   2020-07-15 18:12:47 -0500
 categories: security
 ---
