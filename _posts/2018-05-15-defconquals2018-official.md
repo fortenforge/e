@@ -4,6 +4,7 @@ title:  "DEF CON Quals 2018: official (194 pts)"
 date:   2018-05-07 3:12:44 -0500
 categories: ctfs pwn crypto
 use_math: true
+tags: ctfs pwn crypto
 ---
 
 TL;DR: a 1 byte overflow allows you to induce a small bias in the nonce used in the DSA signing algorithm. Use LLL to exploit this bias to find the private key.

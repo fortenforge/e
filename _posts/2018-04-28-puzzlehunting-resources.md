@@ -3,6 +3,7 @@ layout: post
 title:  "Puzzlehunting Resources"
 date:   2018-04-28 17:12:47 -0500
 categories: puzzlehunts
+tags: puzzlehunts
 ---
 
 

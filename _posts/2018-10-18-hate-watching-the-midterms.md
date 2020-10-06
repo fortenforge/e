@@ -3,6 +3,7 @@ layout: post
 title:  "Hate-watching the Midterms"
 date:   2018-10-18 17:12:47 -0500
 categories: politics
+tags: politics
 ---
 
 On the evening of November 6th, I'll be watching the results come in for the 2018 midterm elections. You should too. There are many ways to experience the event: maybe you want to watch Wolf Blitzer [repeatedly state the obvious ](https://www.youtube.com/watch?v=b0Xe2Ep93dA) on CNN. Maybe you want to incessantly refresh [Nate Silver's twitter feed](https://twitter.com/NateSilver538). Maybe you want to spend all night with your eyes glued to a [jittering needle](https://www.cjr.org/special_report/2018-midterms-forecasts-538-cnn-times-needle.php/).

@@ -3,6 +3,7 @@ layout: post
 title:  "Mystery Hunt 2019 [Part 2/2]"
 date:   2019-01-23 18:12:47 -0500
 categories: mystery_hunt puzzlehunts
+tags: mystery_hunt puzzlehunts
 ---
 
 *This is the second of two posts about the 2019 MIT Mystery Hunt. You can see the hunt website with all the puzzles and solutions [here](http://web.mit.edu/puzzle/www/2019/full.html), and read [my first post]({{ site.baseurl }}{% post_url 2019-01-23-mystery-hunt-2019-part-1 %}) about the hunt theme and my experience.*

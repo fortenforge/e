@@ -4,6 +4,7 @@ title:  "CSAW CTF 2017: Realism (400 pts)"
 date:   2017-09-18 3:12:44 -0500
 categories: ctfs re
 use_math: true
+tags: ctfs re
 ---
 
 This problem was much like any other CTF reversing challenge, but instead of a Linux or Windows executable, the [binary](https://github.com/TechSecCTF/writeups/raw/master/CSAWQuals2017/realism/main.bin) was a [Master Boot Record](https://en.wikipedia.org/wiki/Master_boot_record) (MBR) that needed to be run under the [QEMU](https://www.qemu.org/) full-system emulator.

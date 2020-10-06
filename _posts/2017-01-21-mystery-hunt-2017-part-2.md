@@ -3,6 +3,7 @@ layout: post
 title:  "MIT Mystery Hunt 2017 [Part 2/3]"
 date:   2017-01-21 12:12:44 -0500
 categories: mystery_hunt puzzlehunts
+tags: mystery_hunt puzzlehunts
 ---
 
 *This is part 2 of a series of posts about the MIT Mystery Hunt. You can find [part 1]({{ site.baseurl }}{% post_url 2017-01-20-mystery-hunt-2017-part-1 %}

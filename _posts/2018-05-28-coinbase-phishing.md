@@ -2,6 +2,7 @@
 layout: post
 title:  "Anatomy of a Man-in-the-Middle Phishing Campaign on Coinbase"
 date:   2018-05-29 3:12:44 -0500
+tags: security
 ---
 
 In the summer after my freshman year of college, I had an internship with a startup that tries to defeat phishing attacks against enterprise corporations. As such, I spent a lot of time staring at phishing sites. Once, I showed a phishing campaign against MIT's OWA email portal to my boss, and he blew my mind when he dug through the site and managed to find a publicly-accessible text file where the attackers were logging all the password attempts.

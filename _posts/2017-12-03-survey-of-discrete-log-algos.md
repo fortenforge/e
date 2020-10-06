@@ -4,6 +4,7 @@ title:  "Survey of Discrete Log Algorithms"
 date:   2017-12-03 3:12:44 -0500
 categories: crypto
 use_math: true
+tags: crypto
 ---
 
 In 1999 Dan Boneh published a survey paper called ["Twenty years of attacks on the RSA cryptosystem"](http://crypto.stanford.edu/~dabo/pubs/papers/RSA-survey.pdf). I like to tell people that if they read the entire paper they can solve just about every CTF challenge involving RSA.

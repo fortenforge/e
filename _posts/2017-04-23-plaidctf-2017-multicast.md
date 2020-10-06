@@ -4,6 +4,7 @@ title:  "PlaidCTF 2017: Multicast (175 pts)"
 date:   2017-04-23 3:12:44 -0500
 categories: ctfs crypto
 use_math: true
+tags: ctfs crypto
 ---
 
 PlaidCTF, PPP's annual capture the flag, was held this past weekend. Because of Google Games and other work, I didn't spend a large amount of time on it, but I and others on TechSec did manage to solve a few of the challenges.

@@ -3,6 +3,7 @@ layout: post
 title:  "DEF CON Quals 2017: A story told through pictures"
 date:   2017-05-05 23:12:47 -0500
 categories: ctfs
+tags: ctfs
 ---
 
 Last weekend was DEF CON Quals 2017, the annual qualifier round to the DEF CON CTF held in Las Vegas every year. Last year I tried the CTF on my own and managed to solve 1 challenge. This year I participated on Lab RATs, a joint collaboration between MIT Lincoln Labs, RPISec, and TechSec.

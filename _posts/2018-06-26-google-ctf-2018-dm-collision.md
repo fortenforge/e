@@ -4,6 +4,7 @@ title:  "Google CTF 2018: DM Collision (176 pts)"
 date:   2018-06-26 3:12:44 -0500
 categories: ctfs crypto
 use_math: true
+tags: ctfs crypto
 ---
 
 TL;DR: do horrible things to a [one-way compression function](https://en.wikipedia.org/wiki/One-way_compression_function#Davies%E2%80%93Meyer) by leveraging [weak keys](https://en.wikipedia.org/wiki/Weak_key#Weak_keys_in_DES) in the DES block cipher.

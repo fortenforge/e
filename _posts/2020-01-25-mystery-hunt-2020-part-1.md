@@ -3,6 +3,7 @@ layout: post
 title:  "Mystery Hunt 2020 [Part 1/3]"
 date:   2020-01-25 11:12:47 -0500
 categories: mystery_hunt puzzlehunts
+tags: mystery_hunt puzzlehunts
 ---
 
 *This is the first of three posts about the 2020 MIT Mystery Hunt. You can see the hunt website with all the puzzles and solutions [here](http://pennypark.fun).*

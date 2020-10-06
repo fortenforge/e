@@ -3,6 +3,7 @@ layout: post
 title:  "Mystery Hunt Team Name Origins"
 date:   2020-02-04 11:12:47 -0500
 categories: mystery_hunt puzzlehunts
+tags: mystery_hunt puzzlehunts
 ---
 
 *This is the second of three posts about the 2020 MIT Mystery Hunt. You can see the hunt website with all the puzzles and solutions [here](http://pennypark.fun).*

@@ -4,6 +4,7 @@ title:  "GoogleCTF 2017: RSA CTF Challenge"
 date:   2017-07-02 3:12:44 -0500
 categories: ctfs crypto
 use_math: true
+tags: ctfs crypto
 ---
 
 We are first presented with a simple HTML form that asks us to sign the word `challenge` in order to login. If we look at the source of the page, we find a hidden div that includes an RSA public key and references to base64 encoding and [PKCS1v1.5](https://tools.ietf.org/html/rfc2313) / MD5. Our goal then seems to be to forge a signature for `challenge` in PKCS1v1.5 format that will be accepted by the given public key.

@@ -3,6 +3,7 @@ layout: post
 title:  "MIT Mystery Hunt 2018: The Puzzles"
 date:   2018-01-17 17:12:47 -0500
 categories: mystery_hunt puzzlehunts
+tags: mystery_hunt puzzlehunts
 ---
 
 This year's mystery hunt ended last Monday, and after a heroic effort, my team managed to be the twelfth and final team to finish. This hunt did have fewer puzzles than usual, but I don't think anybody noticed. Puzzle quality was generally high across the board, and since the puzzles themselves were often longer than average (I think), it was all a wash. Below I've highlighted some puzzles of note (spoilers abound!):

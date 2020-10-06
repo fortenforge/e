@@ -3,6 +3,7 @@ layout: post
 title:  "Plaid CTF 2018: Wait Wait... Don't Shell Me (125 pts)"
 date:   2018-05-07 3:12:44 -0500
 categories: ctfs pwn
+tags: ctfs pwn
 ---
 
 This problem was categorized under "Misc" and was worth only 125 points. Nevertheless, it was one of the harder challenges and received only 14 solves. [ghostly_gray](https://raywang.tech), [fasano](http://nation.state.actor/), and I worked on it for several hours over the course of the CTF, but we only solved it after the CTF had ended.

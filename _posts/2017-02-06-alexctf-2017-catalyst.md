@@ -3,6 +3,7 @@ layout: post
 title:  "AlexCTF 2017: Catalyst System (150 pts)"
 date:   2017-02-06 3:12:44 -0500
 categories: ctfs re
+tags: ctfs re
 ---
 
 [AlexCTF](https://ctf.oddcoder.com) just finished this weekend and [our team](https://ctftime.org/team/24526) did pretty well, solving all but two of the challenges. In this post I'll talk about my solution to one of the reverse engineering challenges, called "Catalyst system." You can check out the raw binary [here]({{ site.baseurl }}/assets/crackme/catalyst).

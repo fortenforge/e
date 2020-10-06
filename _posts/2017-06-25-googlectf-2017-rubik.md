@@ -4,6 +4,7 @@ title:  "GoogleCTF 2017: Rubik"
 date:   2017-06-25 3:12:44 -0500
 categories: ctfs crypto
 use_math: true
+tags: ctfs crypto
 ---
 
 GoogleCTF 2017 was held about a week ago; it was pretty difficult, but it had some cool challenges. This writeup is about one of the harder crypto challenges, Rubik.

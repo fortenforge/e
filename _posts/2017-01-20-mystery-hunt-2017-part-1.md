@@ -3,6 +3,7 @@ layout: post
 title:  "MIT Mystery Hunt 2017 [Part 1/3]"
 date:   2017-01-20 17:12:47 -0500
 categories: mystery_hunt puzzlehunts
+tags: mystery_hunt puzzlehunts
 ---
 The 2017 MIT Mystery Hunt ended last Sunday. When I describe the hunt to other people, I often tell them that it's my favorite weekend of the year, and it is. I get to reunite with old friends, meet new people, and spend 3 straight days solving puzzles. Well, sometimes not quite 3 days, but more on that later.
 

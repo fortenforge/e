@@ -3,6 +3,7 @@ layout: post
 title:  "Blaze CTF 2018: shellcodeme (420 pts)"
 date:   2018-04-23 3:12:44 -0500
 categories: ctfs pwn
+tags: ctfs pwn
 ---
 
 This was a simply-posed but tricky pwnable that [ghostly_gray](https://raywang.tech) and I solved over the course of a long plane ride. We were given the [source code]({{ site.baseurl }}/assets/blazectf2018/shellcodeme/shellcodeme.c) (shown below) as well as the [binary]({{ site.baseurl }}/assets/blazectf2018/shellcodeme/shellcodeme). Simply put, we had to write some x86-64 shellcode that used no more than 7 distinct bytes.
