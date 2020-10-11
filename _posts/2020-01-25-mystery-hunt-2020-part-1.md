@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Mystery Hunt 2020 [Part 1/3]"
+title:  "Mystery Hunt 2020"
 date:   2020-01-25 11:12:47 -0500
 categories: mystery_hunt puzzlehunts
 tags: mystery_hunt puzzlehunts
 ---
 
-*This is the first of three posts about the 2020 MIT Mystery Hunt. You can see the hunt website with all the puzzles and solutions [here](http://pennypark.fun).*
+*This post is about the 2020 MIT Mystery Hunt. You can see the hunt website with all the puzzles and solutions [here](https://web.mit.edu/puzzle/www/2020/).*
 
 I spent the past weekend in Cambridge, MA participating in the [MIT Mystery Hunt](http://web.mit.edu/puzzle/www/) for the sixth time. I was the captain of **teammate**, a rather new team that split from ✈️✈️✈️Galactic Trendsetters✈️✈️✈️ (the eventual winners of this year's hunt) in 2018, and whose increasingly strong performance has taken many by surprise.
 
@@ -26,7 +26,7 @@ Here's how my hunt experience went down: on Wednesday evening I took a red-eye f
 
 As is now tradition, a large fraction of teammate met at Flour on the morning of hunt on Friday and had a quick brunch before walking over to Kresge for kickoff. This year's kickoff will forever be remembered as the one that included [*a literal wedding*](https://www.youtube.com/watch?v=mOKqITBPo2w) between two long-time hunt participants. The wedding itself was not really part of the hunt theme, but Left Out tied it in by explaining that for the newlywed's honeymoon, teams would get a chance to explore *Penny Park*, a fictional amusement park that had fallen on some tough times—the real theme of the 2020 Mystery Hunt.
 
-My first impression of the theme was some skepticism over whether a theme park was sufficiently exciting to make for an interesting hunt, but Left Out proved me wrong. *Penny Park* included ten different lands (rounds of puzzles) that each fit right at home in a theme park, but also felt thematically distinct and a rich source for novel round structures. For example, one of the lands was a water park called [Cascade Bay](http://pennypark.fun/land/cascade/), which included three "levels", each of which had a meta that used all the answers from puzzles in the current AND prior levels (meant to evoke the idea of water cascading down through the park).
+My first impression of the theme was some skepticism over whether a theme park was sufficiently exciting to make for an interesting hunt, but Left Out proved me wrong. *Penny Park* included ten different lands (rounds of puzzles) that each fit right at home in a theme park, but also felt thematically distinct and a rich source for novel round structures. For example, one of the lands was a water park called [Cascade Bay](https://web.mit.edu/puzzle/www/2020/land/cascade/), which included three "levels", each of which had a meta that used all the answers from puzzles in the current AND prior levels (meant to evoke the idea of water cascading down through the park).
 
 So yeah, the theming really impressed me this year and I think all-told this hunt makes it into my top 3 favorites (perhaps behind 2015 and 2018). Anyways, back to my hunt experience: immediately after kickoff ended, some teammates scanned through the hunt rules and realized that this year's hunt would feature automated answer checking (what a novelty!). In past mystery hunts, you could submit your guesses through the hunt website, but someone from the running team would call you back to tell you if your answer was correct; this year you'd know immediately.
 
