@@ -5,7 +5,7 @@ date:   2020-10-10 17:12:47 -0500
 tags: politics
 ---
 
-For over a hundred years, the state of California has allowed its voters to enact legislation via a direct yes or no vote through its proposition system. This has made a lot of people angry and has been widely regarded as a bad move.
+For over a hundred years, the state of California has allowed its voters to enact legislation via a direct yes or no vote through its proposition system. This has made a lot of people very angry and been widely regarded as a bad move.
 
 <!--more-->
 
