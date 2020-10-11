@@ -18,20 +18,22 @@ In this post, I've laid out my votes and justifications for the twelve statewide
 
 * **The proposition numbering system is very confusing.** Originally, the propositions on the ballot each year would be numbered 1 to N. Because of the above bullet point, many propositions submitted every year are simply changes to prior propositions, so it became confusing to have discussions about them. ("Wait do you mean 1978's Prop 13 about [property taxes](https://ballotpedia.org/California_Proposition_13,_Tax_Limitations_Initiative_(1978)) or 2010's Prop 13 about [seismic retrofitting](https://ballotpedia.org/California_Proposition_13,_Seismic_Retrofitting_(June_2010))"). Starting in 1982, proposition numbers were no longer reused and continued to increment election after election. By 1998, we started have triple digit propositions, which everyone agreed was also bad, so now we reset the count to 1 every ten years. It's a mess.
 
+<span id="prop-list"></span>
+
 Got it? OK, without further ado, here are my votes:
 
-* [Proposition 14: Stem Cell Research ❌](#proposition-14-stem-cell-research-)
-* [Proposition 15: Property Tax Changes ✅](#proposition-15-property-tax-changes-)
-* [Proposition 16: Affirmative Action ❌](#proposition-16-affirmative-action-)
-* [Proposition 17: Parolee Enfranchisement ✅](#proposition-17-parolee-enfranchisement-)
-* [Proposition 18: Minor Enfranchisement ✅](#proposition-18-minor-enfranchisement-)
-* [Proposition 19: More Property Tax Changes ✅](#proposition-19-more-property-tax-changes-)
-* [Proposition 20: Criminal Justice ❌](#proposition-20-criminal-justice-)
-* [Proposition 21: Local Rent Control ❌](#proposition-21-local-rent-control-)
-* [Proposition 22: Gig Worker Labor Classification ✅](#proposition-22-gig-worker-labor-classification-)
-* [Proposition 23: Dialysis Clinic Regulation ❌](#proposition-23-dialysis-clinic-regulation-)
-* [Proposition 24: Consumer Data Privacy ❌](#proposition-24-consumer-data-privacy-)
-* [Proposition 25: Ending Cash Bail ✅](#proposition-25-ending-cash-bail-)
+* [Prop 14: Stem Cell Research ❌](#proposition-14-stem-cell-research-)
+* [Prop 15: Property Tax Changes ✅](#proposition-15-property-tax-changes-)
+* [Prop 16: Affirmative Action ❌](#proposition-16-affirmative-action-)
+* [Prop 17: Parolee Enfranchisement ✅](#proposition-17-parolee-enfranchisement-)
+* [Prop 18: Minor Enfranchisement ✅](#proposition-18-minor-enfranchisement-)
+* [Prop 19: More Property Tax Changes ✅](#proposition-19-more-property-tax-changes-)
+* [Prop 20: Criminal Justice ❌](#proposition-20-criminal-justice-)
+* [Prop 21: Local Rent Control ❌](#proposition-21-local-rent-control-)
+* [Prop 22: Gig Worker Labor Classification ✅](#proposition-22-gig-worker-labor-classification-)
+* [Prop 23: Dialysis Clinic Regulation ❌](#proposition-23-dialysis-clinic-regulation-)
+* [Prop 24: Consumer Data Privacy ❌](#proposition-24-consumer-data-privacy-)
+* [Prop 25: Ending Cash Bail ✅](#proposition-25-ending-cash-bail-)
 
 
 ## Proposition 14: Stem Cell Research ❌
@@ -44,7 +46,7 @@ The $3 billion was doled out over the course of the last 16 years and is now mos
 
 In 2004, Prop 71 was a bold culture-war stance, a real ["fine, I'll do it myself"](https://www.youtube.com/watch?v=EzWNBmjyv7Y) moment. In 2020, Prop 14 is much less salient. In the intervening years, researchers discovered how to generate pluripotent stem cells from adult cells without destroying an embryo (they won a [Nobel Prize](https://www.nobelprize.org/prizes/medicine/2012/press-release/) for this work!), and in 2009 President Obama lessened the restrictions that President Bush had imposed.
 
-The argument against Prop 14 is that it costs too much money, and argument for it is that spending money on basic research is beneficial. The fundamental question is whether a marginal dollar in the state's budget does more good when put to this kind of research instead of wherever else it would have gone. It's a hard question to answer, so I've defaulted to voting no.
+The argument against Prop 14 is that it costs too much money, and argument for it is that spending money on basic research is beneficial. The fundamental question is whether a marginal dollar in the state's budget does more good when put to this kind of research instead of wherever else it would have gone. It's a hard question to answer, so I've defaulted to voting no. [↩](#prop-list)
 
 ## Proposition 15: Property Tax Changes ✅
 
@@ -58,7 +60,7 @@ As discussed in the introduction, the only way to modify Prop 13 is via more pro
 
 Progressives dream of repealing the law wholesale, but it's intensely popular (understandably so!). Prop 15 is the best shot we have: it repeals Prop 13 for commercial properties (any building that's not a home or a farm).
 
-There are some minor concerns about incentivizing office construction relative to residential housing, but we shouldn't lose sight of the forest for the trees: anything that takes us closer to repealing Prop 13 is good, and Prop 15 does exactly that.
+There are some minor concerns about incentivizing office construction relative to residential housing, but we shouldn't lose sight of the forest for the trees: anything that takes us closer to repealing Prop 13 is good, and Prop 15 does exactly that. [↩](#prop-list)
 
 ## Proposition 16: Affirmative Action ❌
 
@@ -70,17 +72,17 @@ Now, 24 years later, conservatives are fighting to pass Prop 16 to re-legalize s
 
 Wait. No. I've got that backwards. Apparently it's *conservatives* who pushed for Prop 209 and it's so-called progressives who want to pass Prop 16. Weird 🤷.
 
-Of course, it's all really about the ability to enact affirmative action policies in higher education (and frankly it's *really* about a brawl over the admissions policies of UC Berkeley and UCLA). California public universities are currently allowed to consider socioeconomic status, but not race or gender. Prop 16 would change that.
+Of course, it's all really about the ability to enact affirmative action policies in higher education (and frankly it's *really* about a brawl over the admissions policies of UC Berkeley and UCLA). California public universities are currently allowed to consider socioeconomic status, but not race or gender. Prop 16 would change that. [↩](#prop-list)
 
 ## Proposition 17: Parolee Enfranchisement ✅
 
-The state constitution currently prevents people on parole from being able to vote. Prop 17 repeals that provision. There are only around 50,000 people on parole at any given time, and even if this proposition passes only a fraction of them will end up registering, so the impact here is pretty small—but who cares? We should be letting as many people participate in democracy as possible. Voting restrictions are un-American. Vote yes.
+The state constitution currently prevents people on parole from being able to vote. Prop 17 repeals that provision. There are only around 50,000 people on parole at any given time, and even if this proposition passes only a fraction of them will end up registering, so the impact here is pretty small—but who cares? We should be letting as many people participate in democracy as possible. Voting restrictions are un-American. Vote yes. [↩](#prop-list)
 
 ## Proposition 18: Minor Enfranchisement ✅
 
 This proposition allows 17-year-olds who would be 18 at the time of a general election to vote in the primaries and special elections (which typically take place several months earlier).
 
-Again, this probably has negligible impact, but it's a no-brainer. Honestly I think there's a compelling case to just remove age-restrictions on voting entirely. if a 7-year-old can fill out a ballot independently, I see no reason why it shouldn't be counted.
+Again, this probably has negligible impact, but it's a no-brainer. Honestly I think there's a compelling case to just remove age-restrictions on voting entirely. if a 7-year-old can fill out a ballot independently, I see no reason why it shouldn't be counted. [↩](#prop-list)
 
 ## Proposition 19: More Property Tax Changes ✅
 
@@ -92,13 +94,13 @@ Prop 5 was seen (correctly IMO) as a massive giveaway to wealthy taxpayers and a
 
 Currently (and egregiously) Prop 13 applies even if you inherited a property from your parents. This allows a house to pass down from one generation to the next while still keeping the property tax value assessment based on the price paid when the house was first purchased. Prop 19 would kill this, and in doing so would actually raise enough money to offset the costs imposed by the moving provision.
 
-YIMBY and progressive groups lined up pretty squarely against Prop 5 two years ago, but both groups are salivating at the chance to repeal the Prop 13 inheritance loophole, so most have come out in favor of Prop 19.
+YIMBY and progressive groups lined up pretty squarely against Prop 5 two years ago, but both groups are salivating at the chance to repeal the Prop 13 inheritance loophole, so most have come out in favor of Prop 19. [↩](#prop-list)
 
 ## Proposition 20: Criminal Justice ❌
 
 Prop 20 is a relic of the "War on Crime" era of California and national politics that the public has rightly rejected and begun undoing in the past decade or so. It would allow certain crimes that are currently treated as misdemeanors to sometimes be treated as felonies, make it harder for convicted criminals to get parole, and require DNA collection for people convicted of certain misdemeanors.
 
-Crime is down across the state, our prisons are still over capacity, and our criminal justice system still is not being applied equally across racial lines. There's no good reason to vote for Prop 20.
+Crime is down across the state, our prisons are still over capacity, and our criminal justice system still is not being applied equally across racial lines. There's no good reason to vote for Prop 20. [↩](#prop-list)
 
 ## Proposition 21: Local Rent Control ❌
 
@@ -116,7 +118,7 @@ To get AB 1482 passed, Chiu had to make several compromises with YIMBY legislato
 
 Prop 21 tramples over the provisions of AB 1482 and essentially allows cities to go wild with rent control ordinances on any apartment complexes built more than 15 years ago. Critically, Prop 21 also repeals the vacancy control ban from Costa-Hawkins, meaning that cities could prevent landlords from charging a market rate prices to new tenants.
 
-Some amount of rent control is OK, but giving cities carte blanche control would allow local governments to privilege existing residents over immigrants and further distort California's broken housing market. We should at least give a chance for AB  1482 to do its work before throwing out Costa-Hawkins entirely.
+Some amount of rent control is OK, but giving cities carte blanche control would allow local governments to privilege existing residents over immigrants and further distort California's broken housing market. We should at least give a chance for AB  1482 to do its work before throwing out Costa-Hawkins entirely.  [↩](#prop-list)
 
 ## Proposition 22: Gig Worker Labor Classification ✅
 
@@ -140,13 +142,13 @@ Even in California, where Democrats have supermajorities in both legislative cha
 
 Here's how I think about Prop 22: do you think a world with Uber, Lyft, and other app-based services is better or worse than a world without them? There's no middle ground here. The companies have made it abundantly clear that they can't operate in an environment where AB 5 is the law of the land. Uber and Lyft have already both threatened to [leave California](https://marketscale.com/industries/transportation/why-uber-lyft-threatened-to-leave-california-for-good/) before [backing down](https://www.nytimes.com/2020/08/20/technology/uber-lyft-california-shutdown.html) after an appeals court allowed them to continue classifying drivers as contractors until a trial proceeds.
 
-Ultimately, I think a world with Uber is better than one without. I'm voting yes on Prop 22.
+Ultimately, I think a world with Uber is better than one without. I'm voting yes on Prop 22. [↩](#prop-list)
 
 ## Proposition 23: Dialysis Clinic Regulation ❌
 
 The background here is a massive fight between dialysis companies and the Service Employees International Union United Healthcare Workers West (SEIU UHW West (what a mouthful)). For reasons passing understanding, the SEIU UHW West has decided that the best way to achieve their objectives is via a ballot proposition that imposes new regulations on dialysis clinics.
 
-They already tried once in 2018 with Prop 8; this is their second attempt. Although dialysis companies are [no saints](https://www.youtube.com/watch?v=yw_nqzVfxFQ&list=ULBgyqAD5Z6_A&index=203), as far as I can tell this proposition is bad on the merits. It would increase costs for patients, while not really providing any needed protections.
+They already tried once in 2018 with Prop 8; this is their second attempt. Although dialysis companies are [no saints](https://www.youtube.com/watch?v=yw_nqzVfxFQ&list=ULBgyqAD5Z6_A&index=203), as far as I can tell this proposition is bad on the merits. It would increase costs for patients, while not really providing any needed protections. [↩](#prop-list)
 
 ## Proposition 24: Consumer Data Privacy ❌
 
@@ -156,7 +158,7 @@ My general view on the CCPA and GDPR is that they're both well-intentioned, and 
 
 Prop 24 modifies the CCPA but not in any straightforward way. Nobody really seems to know what to make of it (the California Democratic Party [declined](https://cademorg-media.s3.amazonaws.com/wp-content/uploads/2020/09/28204844/CDP-PropEnsorsements__Interactive.pdf) to endorse Prop 24 one way or the other).
 
-If the legislature wants to make these changes to the CCPA, they're free to do so. There's no need to do it via proposition.
+If the legislature wants to make these changes to the CCPA, they're free to do so. There's no need to do it via proposition. [↩](#prop-list)
 
 ## Proposition 25: Ending Cash Bail ✅
 
@@ -166,7 +168,7 @@ It's an elegant system in theory, but in practice it's [rife with problems](http
 
 While Democrats should be excited by the prospects of ending cash bail, several progressive groups (including the California NAACP) are wary of replacing it with a potentially-biased algorithm.
 
-Unfortunately, there really isn't a viable alternative here. Leaving it purely up to the discretion of judges leaves room for even more bias, and the existing system is unjustifiably bad. Risk-assessing algorithms have been tried in other states, and results are pretty positive.
+Unfortunately, there really isn't a viable alternative here. Leaving it purely up to the discretion of judges leaves room for even more bias, and the existing system is unjustifiably bad. Risk-assessing algorithms have been tried in other states, and results are pretty positive. [↩](#prop-list)
 
 ## Additional Resources
 
