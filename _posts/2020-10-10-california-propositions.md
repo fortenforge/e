@@ -180,3 +180,5 @@ To reiterate: it's borderline insane that California expects its voters to learn
 * [Pete Rates the Propositions](http://www.peterates.com/props-1120.shtml)
 * [San Jose Mercury News Endorsements](https://www.mercurynews.com/2020/08/30/our-election-endorsements-for-the-nov-3-races-and-ballot-measures/)
 * [California Official Voter Information Guide](https://voterguide.sos.ca.gov/propositions/index.htm)
+
+*Thanks to Ray, Kim, and Varun for reading drafts of this.*
