@@ -44,7 +44,7 @@ In 2001, President Bush prohibited federal funding of most human embryonic stem 
 
 The $3 billion was doled out over the course of the last 16 years and is now mostly gone. Prop 14 renews the fund to the tune of $5.5 billion in general authorization bonds.
 
-In 2004, Prop 71 was a bold culture-war stance, a real ["fine, I'll do it myself"](https://www.youtube.com/watch?v=EzWNBmjyv7Y) moment. In 2020, Prop 14 is much less salient. In the intervening years, researchers discovered how to generate pluripotent stem cells from adult cells without destroying an embryo (they won a [Nobel Prize](https://www.nobelprize.org/prizes/medicine/2012/press-release/) for this work!), and in 2009 President Obama lessened the restrictions that President Bush had imposed.
+In 2004, Prop 71 was a bold culture-war stance, a real ["fine, I'll do it myself"](https://www.youtube.com/watch?v=EzWNBmjyv7Y) moment. In 2020, Prop 14 is much less salient. In the intervening years, researchers discovered how to generate pluripotent stem cells from adult cells without destroying an embryo (they won a [Nobel Prize](https://www.nobelprize.org/prizes/medicine/2012/press-release/) for this work!), and in 2009 President Obama removed the restrictions that President Bush had imposed.
 
 The argument against Prop 14 is that it costs too much money, and argument for it is that spending money on basic research is beneficial. The fundamental question is whether a marginal dollar in the state's budget does more good when put to this kind of research instead of wherever else it would have gone. It's a hard question to answer, so I've defaulted to voting no. [↩](#prop-list)
 
@@ -54,11 +54,11 @@ The original sin of California housing politics is [Proposition 13](https://en.w
 
 In any sane world, property taxes would be proportional to how valuable the real estate is, and if your home doubled in value from one year to the next, your taxes should double as well. Prop 13 threw that out of the window, and instead capped property tax rises to 2% a year and only allowed a reassessment of value upon sale of the property.
 
-This created hugely warped incentives surrounding home sales: let's say you've lived in San Francisco for decades and you now want to move out of the city into a smaller home because your kids have moved out. Even though you're living in some of the most valuable real estate in the country, your new, cheaper home may have *higher* property taxes than your current one, because you purchased it in the sixties.
+This created warped incentives surrounding home sales: let's say you've lived in San Francisco for decades and you now want to move out of the city into a smaller home because your kids have moved out. Even though you're living in some of the most valuable real estate in the country, your new, cheaper home may have *higher* property taxes than your current one, because you purchased it in the sixties. This essentially functions as an implicit tax on moving or selling your property.
 
 As discussed in the introduction, the only way to modify Prop 13 is via more propositions, and as a result, for the last 40 years California voters have been asked to vote on dozens of propositions all trying to fix the various problems Prop 13 caused.
 
-Progressives dream of repealing the law wholesale, but it's intensely popular (understandably so!). Prop 15 is the best shot we have: it repeals Prop 13 for commercial properties (any building that's not a home or a farm).
+Progressives and YIMBYs dream of repealing the law wholesale, but it's intensely popular (understandably so!). Prop 15 is the best shot we have: it repeals Prop 13 for commercial properties (any building that's not a home or a farm).
 
 There are some minor concerns about incentivizing office construction relative to residential housing, but we shouldn't lose sight of the forest for the trees—anything that takes us closer to repealing Prop 13 is good, and Prop 15 does exactly that. [↩](#prop-list)
 
@@ -80,9 +80,9 @@ The state constitution currently prevents people on parole from being able to vo
 
 ## Proposition 18: Minor Enfranchisement ✅
 
-This proposition allows 17-year-olds who would be 18 at the time of a general election to vote in the primaries and special elections (which typically take place several months earlier).
+This proposition allows 17-year-olds who would be 18 at the time of a general election to vote in the primaries and special elections (which typically take place several months earlier). Again, this probably has negligible impact, but it's a no-brainer.
 
-Again, this probably has negligible impact, but it's a no-brainer. Honestly, I think there's a compelling case to just remove age-restrictions on voting entirely. If a 7-year-old can fill out a ballot independently, I see no reason why it shouldn't be counted. [↩](#prop-list)
+Honestly, I think there's a compelling case to just remove age-restrictions on voting entirely. If a 7-year-old can fill out a ballot independently, I see no reason why it shouldn't be counted. I'm perfectly serious about this. The arguments that people make to disenfranchise minors—that they're not educated on the issues, that their parents will sway their votes—are nearly identical to the arguments made against blacks' and women's voting rights in the 19th and 20th centuries. [↩](#prop-list)
 
 ## Proposition 19: More Property Tax Changes ✅
 
@@ -94,7 +94,7 @@ Prop 5 was seen (correctly IMO) as a massive giveaway to wealthy taxpayers and a
 
 Currently (and egregiously) Prop 13 applies even if you inherited a property from your parents. This allows a house to pass down from one generation to the next while still keeping the property tax value assessment based on the price paid when the house was first purchased. Prop 19 would kill this, and in doing so would actually raise enough money to offset the costs imposed by the moving provision.
 
-YIMBY and progressive groups lined up pretty squarely against Prop 5 two years ago, but both groups are salivating at the chance to repeal the Prop 13 inheritance loophole, so most have come out in favor of Prop 19. [↩](#prop-list)
+YIMBY and progressive groups lined up squarely against Prop 5 two years ago, but both groups are salivating at the chance to repeal the Prop 13 inheritance loophole, so most have come out in favor of Prop 19. [↩](#prop-list)
 
 ## Proposition 20: Criminal Justice ❌
 
@@ -112,7 +112,7 @@ For the last 30 years, rent control has been mostly disallowed in California at 
 
 In 2018, Prop 10 tried to repeal Costa-Hawkins; progressives uniformly supported the proposition, Republicans were uniformly opposed, and YIMBY groups were deeply split. In the end, the proposition failed to pass.
 
-As of January 1st 2020 though, California does actually have statewide rent control, thanks to David Chiu's [AB 1482](https://bungalow.com/articles/californias-rent-control-law-explained). For apartment complexes built more than 15 years ago and not already exempt from Costa-Hawkins, rent increases are now capped at 5% plus inflation.
+As of January 1st 2020 though, California does actually have statewide rent control, thanks to David Chiu's [AB 1482](https://bungalow.com/articles/californias-rent-control-law-explained). For apartment complexes built more than 15 years ago and not already exempt from Costa-Hawkins, AB 1482 caps rent increases at 5% plus inflation per year.
 
 To get AB 1482 passed, Chiu had to make several compromises with YIMBY legislators and landlord groups. The end result was a pretty sensible law, in line with a similar [statewide law](https://www.npr.org/2019/02/27/698509957/oregon-set-to-pass-the-first-statewide-rent-control-bill) passed in Oregon. Some people (Chiu included) think it doesn't go far enough, and they got enough signatures to put Proposition 10 back on the 2020 ballot as Prop 21.
 
@@ -134,7 +134,7 @@ As the list of exceptions grows (and indeed it's not out of the question that th
 
 While the legislature won't be exempting Uber anytime soon, the company isn't taking this fight lying down. They partnered with Lyft and DoorDash to get enough signatures to put Prop 22 on the ballot, which carves out their own AB 5 exemption for app-based services.
 
-The "Yes on 22" committee claims that app-based drivers overwhelmingly prefer to be classified as independent contractors. The truth is a little more complicated. Some drivers treat their work for Uber or Lyft as a full-time job, and these individuals are ones who suffer from not being treated as full employees, but other drivers do treat ridesharing as a side-hustle and put a high price on the flexibility offered by the contractor status. If you step into an Uber in the days before the election, I encourage you to talk to your driver about Prop 22! I think you'll find that there's a diversity of opinions on this issue.
+The "Yes on 22" committee claims that app-based drivers overwhelmingly prefer to be classified as independent contractors. The truth is a little more complicated. Some drivers (about half) treat their work for Uber or Lyft as a full-time job, and these individuals are ones who suffer from not being treated as full employees, but other drivers do treat ridesharing as a side-hustle and put a high price on the flexibility offered by the contractor status. If you step into an Uber in the days before the election, I encourage you to talk to your driver about Prop 22! I think you'll find that there's a diversity of opinions on this issue.
 
 We should also talk about the much-derided "7/8ths" provision of Prop 22. As I mentioned above, by default, propositions can't be overturned or modified by the state legislature. This is, in some ways, the whole point of propositions. Some proposition writers—knowing that they can't anticipate everything the future holds—do allow the legislature to make changes, but usually with some kind of super-majority vote. 2/3rds is common, and is used by Prop 17 and Prop 21 this year. Prop 22 uses 7/8ths.
 
@@ -164,11 +164,11 @@ If the legislature wants to make these changes to the CCPA, they're free to do s
 
 When cops arrest someone on suspicion of committing a crime, they send them to jail ([not prison!](https://www.merriam-webster.com/words-at-play/jail-vs-prison-difference)) to await trial. We don't want to needlessly detain people, but we also want to ensure that suspects aren't able to flee the country before being tried. Enter cash bail: a judge sets an amount of money that must be paid by the subject to get out of jail. After the trial, the defendant gets the money back.
 
-It's an elegant system in theory, but in practice it's [rife with problems](https://www.youtube.com/watch?v=IS5mwymTIJU). Prop 25 would end the practice altogether and replace it instead with an "algorithm" that determines if someone is a flight-risk.
+It's an elegant idea in theory, but in practice it's [rife with problems](https://www.youtube.com/watch?v=IS5mwymTIJU). In particular, the poor—who are disproportionally likely to be arrested in the first place—simply don't have the money to post bail but also can't afford to miss out on their job while they're behind bars. This forces them to either visit bail bonds companies, which charge exorbitant interest rates, or plead guilty to avoid trial altogether. It's a horribly unequal system.
 
-While Democrats should be excited by the prospects of ending cash bail, several progressive groups (including the California NAACP) are wary of replacing it with a potentially-biased algorithm.
+Prop 25 would end the practice altogether and replace it instead with an "algorithm" that determines if someone is a flight-risk. While Democrats should be excited by the prospects of ending cash bail, several progressive groups (including the California NAACP) are wary of replacing it with a potentially-biased algorithm.
 
-Unfortunately, there really isn't a viable alternative here. Leaving it purely up to the discretion of judges leaves room for even more bias, and the existing system is unjustifiably bad. Risk-assessing algorithms have been tried in other states, and results are pretty positive. [↩](#prop-list)
+Unfortunately, there really isn't a viable alternative here. Leaving it purely up to the discretion of judges leaves room for even more bias, and the existing system is unjustifiably bad. Risk-assessing algorithms have been tried in other states, and results are [fairly positive](https://whyy.org/articles/n-j-officials-have-finally-released-data-on-bail-reform-their-conclusion-its-working/). [↩](#prop-list)
 
 ## Additional Resources
 
