@@ -3,6 +3,8 @@ layout: post
 title:  "Mystery Hunt 2021 [Part 1/2]"
 date:   2021-01-28 11:12:47 -0500
 tags: mystery_hunt puzzlehunts
+summary: "My thoughts on helping write the 2021 MIT Mystery Hunt"
+image: assets/mysteryhunt2021/green-building.png
 ---
 
 *This post is about the 2021 MIT Mystery Hunt. You can see the hunt website with most of the puzzles and solutions at [perpendicular.institute](https://perpendicular.institute/).*
