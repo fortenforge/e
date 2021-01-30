@@ -79,6 +79,9 @@ One of these was related to the Infinite Corridor navigation puzzle. Unlike the 
 
 When doing the run-through we discovered an issue involving the portal to the round's metapuzzle showing up at the wrong time. I don't remember the exact bug, although I do remember needing to repeatedly feed Jon the solution to the final Infinite nav puzzle over and over again as we repeatedly tested the round. In parallel we were also trying to finish an instance of [Cafe Five](https://perpendicular.institute/puzzle/cafe-five/solution/) to verify that completing it would correctly give us a token that we could spend to get an answer. I distinctly remember racing Anderson to see if I could look up the solution to some of the logic puzzles faster then he could solve them legitimately.
 
+
+![The Infinite Corridor]({{ site.baseurl }}/assets/mysteryhunt2021/infinite.png){: .center-image }
+
 We found a couple of other issues related to the [Violet Coins In Space](https://perpendicular.institute/puzzle/violet-coins-in-space/) field goal and the unlock times for the [Yew Labs](https://perpendicular.institute/round/yew-labs/) round, but like I said, for the most part things were working correctly. We started the run-through at around 10pm and let up at 3:30am—five and half hours before kickoff. Huge thanks to everyone who stayed up with us including Steven, Herman, and Ben who did most of the actual debugging and fixing.
 
 ## The Bugs We Lived With
