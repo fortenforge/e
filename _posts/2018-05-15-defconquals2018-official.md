@@ -96,29 +96,29 @@ So, we have \\(n + 2\\) known vectors which can linearly combine to produce a sh
 
 When expressed as a matrix, our vectors look like:
 
-\\[
-\begin{pmatrix}
-  q       &  0      &  0      & \cdots  & 0      \\\
-  0       &  q      &  0      & \cdots  & 0      \\\
-  \vdots  &  \vdots &  \vdots & \ddots  & \vdots \\\
-  0       & 0       & 0       & \cdots  & q      \\\
-  t_1     & t_2     & t_3     & \cdots  & t_n    \\\
+$$
+\begin{bmatrix}
+  q       &  0      &  0      & \cdots  & 0      \\
+  0       &  q      &  0      & \cdots  & 0      \\
+  \vdots  &  \vdots &  \vdots & \ddots  & \vdots \\
+  0       & 0       & 0       & \cdots  & q      \\
+  t_1     & t_2     & t_3     & \cdots  & t_n    \\
   u_1     & u_2     & u_3     & \cdots  & u_n
-\end{pmatrix}
-\\]
+\end{bmatrix}
+$$
 
 The last trick we'll employ allows us to more easily find \\(x\\) once we've LLL-reduced our basis to produce \\(\mathbf{b}\\). Specifically, we'll augment each of our vectors with two extra dimensions:
 
-\\[
-\begin{pmatrix}
-  q      & 0      & 0      & \cdots & 0      & 0   & 0   \\\
-  0      & q      & 0      & \cdots & 0      & 0   & 0   \\\
-  \vdots & \vdots & \vdots & \ddots & \vdots & 0   & 0   \\\
-  0      & 0      & 0      & \cdots & q      & 0   & 0   \\\
-  t_1    & t_2    & t_3    & \cdots & t_n    & s_T & 0   \\\
+$$
+\begin{bmatrix}
+  q      & 0      & 0      & \cdots & 0      & 0   & 0   \\
+  0      & q      & 0      & \cdots & 0      & 0   & 0   \\
+  \vdots & \vdots & \vdots & \ddots & \vdots & 0   & 0   \\
+  0      & 0      & 0      & \cdots & q      & 0   & 0   \\
+  t_1    & t_2    & t_3    & \cdots & t_n    & s_T & 0   \\
   u_1    & u_2    & u_3    & \cdots & u_n    & 0   & s_U
-\end{pmatrix}
-\\]
+\end{bmatrix}
+$$
 
 where \\(s_T = s_U = 1\\) act as *sentinel values*. When we run LLL on this basis, our short vector of interest will have \\(s_U\\) as its last element, and \\(xs_T\\) as its penultimate element. This will allow us to easily identify our short vector (as the one with 1 in its last position), and derive our private key from it (look at the second-to-last element).
 
