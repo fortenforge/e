@@ -4,9 +4,9 @@ title: About
 permalink: /about
 ---
 
-*Last updated July, 2018*
+*Last updated January, 2022*
 
-I currently work at Google as a Software Engineer on the Gmail Security Team.
+I currently work as a Software Engineer at a small startup.
 The views expressed here are personal opinions, and do not necessarily reflect
 the opinions of my employer.
 
