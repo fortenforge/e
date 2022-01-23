@@ -255,3 +255,14 @@ a.sidebar-nav-item:focus {
     margin: 0 auto;
     display: block;
 }
+
+.spoiler
+{
+  background-color: black;
+  color: black;
+}
+
+.spoiler:hover {
+  background-color: white;
+  color: #515151;
+}
