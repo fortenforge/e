@@ -8,6 +8,8 @@ summary: "The best books I read and movies I watched in 2023—paired."
 
 I wanted to write down some thoughts on the best books I read and movies I watched in 2023, but to make the exercise a little more interesting I decided to pair each book with a movie and talk a little bit about the connections between them.
 
+<!--more-->
+
 Full disclosure—not all of these came out in 2023, but I did read/watch each one in the past year.
 
 # *Oppenheimer* / *The Making of the Atomic Bomb*
