@@ -80,7 +80,7 @@ function moveDivisor(e) {
     } else if (30 <= pct && pct < 67) {
         document.getElementById("book_img").style.backgroundImage = "url({{site.baseurl}}/assets/book_movie_pairs_2024/how_i_won_a_nobel_prize.jpg)";
         document.getElementById("movie_img").style.backgroundImage = "url({{site.baseurl}}/assets/book_movie_pairs_2024/tar.jpeg)";
-        divisor.style.width = (pct - 39.0)/37.0 * 100.0 + "%";
+        divisor.style.width = (pct - 30.0)/37.0 * 100.0 + "%";
     } else if (67 <= pct && pct < 90) {
         document.getElementById("book_img").style.backgroundImage = "url({{site.baseurl}}/assets/book_movie_pairs_2024/battle_royale.jpg)";
         document.getElementById("movie_img").style.backgroundImage = "url({{site.baseurl}}/assets/book_movie_pairs_2024/godzilla_minus_one.jpeg)";
