@@ -79,7 +79,11 @@ Under general relativity, light travels along *geodesics*—essentially “strai
 
 One such simplification is to consider only the influence one large mass \\(M\\). Photons in this scenario follow the [Schwarzschild geodesics](https://en.wikipedia.org/wiki/Schwarzschild_geodesics).
 
-If you use the Schwarzschild solution to Einstein’s field equations to calculate the deflection (see [this video](https://www.youtube.com/watch?v=MxWATpSGEgY) for the calculation) you produce:
+You can use the Schwarzschild solution to Einstein’s field equations to calculate the deflection. I don't pretend to understand general relativity well-enough to perform the deriviation myself, but you can watch the below video if you're interested:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MxWATpSGEgY?si=0h47RNQkAUviEZRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+You get a deflection angle of:
 
 \\[\Delta \theta = \frac{4 GM}{bc^2}\\]
 
