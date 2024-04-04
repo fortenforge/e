@@ -256,6 +256,13 @@ a.sidebar-nav-item:focus {
     display: block;
 }
 
+.fifty-percent
+{
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
 .spoiler
 {
   background-color: black;
