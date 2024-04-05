@@ -26,7 +26,7 @@ tags: eclipse
 
 **[August 18, 1868](https://en.wikipedia.org/wiki/Solar_eclipse_of_August_18,_1868)** - Also known as **The King of Siam's eclipse** named after [King Mongkut](https://en.wikipedia.org/wiki/Mongkut) of Thailand, the titular king in the Rodgers and Hammerstein musical *[The King and I](https://en.wikipedia.org/wiki/The_King_and_I)*.
 
-Mongkut was an interesting figure: He lived the first half of his life as a Buddhist monk, but then ascended the throne at age 47. While a monk, Mongkut studied both astrology and western astronomy and he successfully predicted the location and duration of the 1868 eclipse which pass over the Wakor village in Thailand.
+Mongkut was an interesting figure: He lived the first half of his life as a Buddhist monk, but then ascended the throne at age 47. While a monk, Mongkut studied both astrology and western astronomy and he successfully predicted the location and duration of the 1868 eclipse which passed over the Wakor village in Thailand.
 
 There's also this story about him trying to send elephants to America that I'll just [link here](https://en.wikipedia.org/wiki/Mongkut#Elephant_story). Read it—I promise it's worth it.
 
