@@ -36,7 +36,7 @@ There's also this story about him trying to send elephants to America that I'll 
 
 **[August 19, 1887](https://en.wikipedia.org/wiki/Solar_eclipse_of_August_19,_1887)** - Russian chemist Dmitri Mendeleev (the father of the periodic table) ascended in a hot-air balloon in order to observe this eclipse.
 
-**[May 29, 1919](https://en.wikipedia.org/wiki/Solar_eclipse_of_May_29,_1919)** - Sir Arthur Eddington used this eclipse to [confirm Einstein's theory of general relativity]({{site.baseurl}}/2024-04-01-eclipse-posting-eddington).
+**[May 29, 1919](https://en.wikipedia.org/wiki/Solar_eclipse_of_May_29,_1919)** - Sir Arthur Eddington used this eclipse to [confirm Einstein's theory of general relativity]({{site.baseurl}}/eclipse/2024/04/01/eclipse-posting-eddington.html).
 
 **[June 29, 1927](https://en.wikipedia.org/wiki/Solar_eclipse_of_June_29,_1927)** - Virginia Woolf wrote about this eclipse. Some excerpts:
 
