@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Book Review: The Genetic Book of the Dead"
-date: 2025-02-02 01:14:11 -0800
+title:  "The Genetic Book of the Dead"
+date:   2025-02-16 01:14:11 -0800
 use_math: true
+summary: "A book review of Richard Dawkins' The Genetic Book of the Dead."
 ---
 
 Beautifully illustrated and well-written, Richard Dawkins' newest work *The Genetic Book of the Dead* is a wonderful read for anyone who is interested in wildlife, anyone who enjoyed learning about genetics in high school and wants to think more deeply about that subject, and anyone who enjoys an extremely technical mind write lucidly about a topic he loves.
@@ -36,6 +37,20 @@ You have two copies of every gene in your body, one from each parent. The copy t
 This common ancestor is unique to each gene—different genes will converge at different points.
 
 ![recombination]({{ site.baseurl }}/assets/gbotd/recombination.jpg)
+
+Naively, you might expect that a given chromosome is an exact copy made up of one half from a maternal grandparent and another half from a paternal grandparent, but while this is true on the gene level, it's not true at the chromosome level: you'll notice that the chromosome illustrated above contains fragments from all four grandparents. This is due to *crossing-over*. During meiosis when sperm and egg cells are produced, each chromosome sometimes exchanges segments between individual chromatids (the two halves of a chromosome).
+
+This occurs about 1-3 times per chromosome per meiosis, and intriguingly happens significantly more often in eggs compared to sperm.
+
+Because crossing-over happens at a relatively consistent and low frequency, it can be used to measure the "age" of the most recent common ancestor (MRCA) for different genes. Basically, in a region of the genome where the mother and father segments are nearly identical, the MRCA is likely fairly recent since there hasn't been much time for crossing-over to introduce higher diversity. Conversely, if the two segments differ substantially, that suggests that the MRCA is further into the past. This is the fundamental principle behind [coalescent theory](https://en.wikipedia.org/wiki/Coalescent_theory).
+
+What can you do with this information? Many interesting things; Dawkins describes working with a colleague to sequence his own genome and perform this analysis. When he clustered each region of his genome by MRCA time he discovered that many of his genes date back to ~50,000 years ago, suggesting that his ancestors experienced a population bottleneck around that time.
+
+Scientists have also used similar analysis to show that the LCT gene, responsible for the production of lactase evolved fairly recently—about 7,500 years ago, suggesting that it was naturally-selected as it conferred an advantage in humans around that time (the ability to consume milk from domesticated animals).
+
+A good explanation of coalescent theory can be found in this video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-ARehcP3eV0?si=wdR2zQPs7KDyfPJl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## On Cuckoos
 
@@ -76,15 +91,21 @@ Birds operate similarly, although their sex chromosomes are denoted Z and W. How
 
 ## Dawkins' Mathematical Mind
 
+Finally, Dawkins frequently includes some asides that hint at how his mind finds mathematics lurking in non-obvious places.
+
+For example, here's an excerpt pulled from a discussion about sea turtles vs land turtles:
+
 > From any point inside an equilateral triangle, the lengths of perpendiculars dropped to the three sides add up to the same value. This provides a useful technique for displaying three variables when the three are proportions that add up to a fixed number such as one, or percentages that add up to 100.
 
-[Flammability diagrams](https://en.wikipedia.org/wiki/Flammability_diagram) use % methane, % nitrogen, and % oxygen:
+This is a pithy explanation for the workings of a [ternary plot](https://en.wikipedia.org/wiki/Ternary_plot). Common examples include [flammability diagrams](https://en.wikipedia.org/wiki/Flammability_diagram) use % methane, % nitrogen, and % oxygen:
 
 ![flammability chart of methane](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flammability_diagram_methane.svg/1920px-Flammability_diagram_methane.svg.png)
 
-While [soil texture](https://en.wikipedia.org/wiki/Soil_texture) charts use % clay, % silt, and % sand:
+Or [soil texture](https://en.wikipedia.org/wiki/Soil_texture) charts which use % clay, % silt, and % sand:
 
 ![soil texture chart](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/SoilTexture_USDA.svg/640px-SoilTexture_USDA.svg.png)
+
+Here's another excerpt from an endnote:
 
 > Once, in the Kruger National Park, I came upon the urine trail that a male elephant in musth had made in the dust. It looked approximately sinusoidal, and had evidently been made by his dribbling penis swinging as a pendulum. I photographed it with a vague idea of getting a mathematician to Fourier analyse it and compute the length of his penis.
 
@@ -108,3 +129,6 @@ So the period is:
 \\[T = 2\pi\sqrt{\frac{\frac{1}{3}ml^2}{mg\frac{1}{2}l}} = 2\pi \frac{2l}{3g}\\]
 
 So yes, the length is derivable from the period, but from the photo alone we'd need to make some assumptions about the walking speed of the elephant in order to translate from wavelength to period.
+
+
+## Footnotes
