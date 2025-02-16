@@ -14,6 +14,8 @@ Below I've summarized a few of the book's most interesting sections.
 
 A familiar sight to any North American wildlife enthusiast is a [Turkey Vulture](https://ebird.org/species/turvul) soaring in the sky, riding the thermals and looking for deceased animals it can harvest for food. North America has other vultures too, including the [Black Vulture](https://ebird.org/species/blkvul) and [California Condor](https://ebird.org/species/calcon). Remarkably, these "New World" vultures are not genetically related to the "Old World" vultures, despite their similar names, appearance, and behavior.
 
+<!--more-->
+
 Such is the power of convergent evolution: natural selection, applied over a long enough time frame, can result in genetically distinct species that exhibit remarkably similar traits. The Old and New World biomes (species of Eurasia and Africa vs. species of The Americas) provide many excellent examples: New World porcupines are not related to Old World porcupines, nor are American badgers closely related to European badgers:
 
 ![badgers](https://upload.wikimedia.org/wikipedia/commons/3/35/BadgerCollage.png)
