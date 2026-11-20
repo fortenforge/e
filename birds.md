@@ -14,3 +14,4 @@ Birding is obviously a super popular hobby (especially post-pandemic), but it's 
 
 * [My eBird Profile](https://ebird.org/profile/NTExNDgzNg)
 * [My 2025 Birding Recap](https://fortenf.org/birds/)
+* [Pantanal](https://fortenf.org/pantanal/)
